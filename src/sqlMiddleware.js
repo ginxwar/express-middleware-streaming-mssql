@@ -31,4 +31,4 @@ const runSqlInPool = pool => sql => (req, res, next) => {
   })
 }
 
-export default runSqlInPool
+module.exports = runSqlInPool
