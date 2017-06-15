@@ -1,4 +1,4 @@
-import mssql from 'mssql'
+const mssql = require('mssql')
 
 const runSqlInPool = pool => sql => (req, res, next) => {
   const request = new mssql.Request(pool)
