@@ -1,6 +1,6 @@
 {
   "name": "express-middleware-streaming-mssql",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "An Express Middleware using node-mssql and streaming outputs",
   "main": "index.js",
   "scripts": {
