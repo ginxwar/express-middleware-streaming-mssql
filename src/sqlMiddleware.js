@@ -13,6 +13,7 @@ const runSqlInPool = pool => sql => (req, res, next) => {
     res.set({
       'Content-Type': 'application/json; charset=utf-8'
     })
+    res.write('[')
   })
 
   request.on('row', row => {
@@ -26,6 +27,7 @@ const runSqlInPool = pool => sql => (req, res, next) => {
   })
 
   request.on('done', result => {
+    res.write(']')
     res.end()
     return next()
   })
