@@ -1,0 +1,29 @@
+{
+  "name": "express-middleware-streaming-mssql",
+  "version": "0.0.1",
+  "description": "An Express Middleware using node-mssql and streaming outputs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ginxwar/express-middleware-streaming-mssql.git"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "mssql",
+    "node-mssql",
+    "tedious"
+  ],
+  "author": "Kevin Wu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ginxwar/express-middleware-streaming-mssql/issues"
+  },
+  "homepage": "https://github.com/ginxwar/express-middleware-streaming-mssql#readme",
+  "dependencies": {
+    "mssql": "^4.0.4"
+  }
+}
