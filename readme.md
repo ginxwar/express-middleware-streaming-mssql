@@ -2,6 +2,11 @@
 
 A really simple SQL streaming express middleware using implementation from  [node-mssql](https://github.com/patriksimek/node-mssql).
 
+## Install
+```
+npm install express-middleware-streaming-mssql
+```
+
 ## Example
 
 ```JS
